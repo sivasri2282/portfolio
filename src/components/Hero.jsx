@@ -31,10 +31,19 @@ const Hero = () => {
             <motion.p variants={container(0.5)}
                 initial="hidden"
                 animate="visible"className='my-2 max-w-xl py-6 leading-relaxed text-xl  tracking-tighter '>{HERO_CONTENT}</motion.p>
-                <motion.p variants={container(0.5)}
-                initial="hidden"
-                animate="visible"className='my-2 max-w-xl py-1 px-1 leading-relaxed text-l tracking-tighter border-2'>
-      <a href="Sivasri_resume.pdf" download>Download CV</a></motion.p>
+<motion.a
+  href="/Sivasri Resume.pdf"
+  download
+  whileHover={{ scale: 1.05 }}
+  whileTap={{ scale: 0.95 }}
+  className="inline-block px-6 py-2 font-semibold text-black-600 border-2 border-grey-600 
+             rounded-lg shadow-md transition-all duration-300 
+             hover:bg-white-600 hover:text-white hover:shadow-lg hover:border-white-700"
+>
+  Download CV
+</motion.a>
+
+
             </div>
             </div>
             <div className='w-full lg:w-1/2 lg:p-8'>

@@ -57,7 +57,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "Edaiyar street,M.chavady,Thanjavur,Tamilnadu",
+  address: "M.chavady,Thanjavur,Tamilnadu",
   phoneNo: "9751907490",
   email: "sivzsriguna@gmail.com",
 };
