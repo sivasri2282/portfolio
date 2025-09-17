@@ -34,7 +34,7 @@ export const PROJECTS = [
     description:
       "The Weather Application is a web-based tool that allows users to identify the weathr condition,humidity,and wind speed. Built using HTML, CSS and weather API. This project demonstrates your skills in front-end development and user interface design, providing a practical and interactive identification.",
     technologies: ["HTML", "CSS"],
-    Link:"https://lnkd.in/grASMtg9"
+    Link:"https://sivasri2282.github.io/Weather-app/"
   },
   
   {
